@@ -1,0 +1,141 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+*{
+    font-family:'Fira Code', monospace;
+    font-weight: 100;
+}
+
+body{
+    background-color: #5E4E4E;
+}
+
+.logo#panel{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 10%;
+    text-align: center;
+    color: #343434;
+}
+
+#description{
+    position: absolute;
+    font-size: 20px;
+    margin: 0;
+    top: 25%;
+    left: 19%;
+    right: 19%;
+    width: 62%;
+    height: 50%;
+}
+
+.main_logo{
+    position: absolute;
+    color: #343434;
+    margin: 0;
+    font-size: 75px;
+    top: 3%;
+    right: 2%;
+}
+
+.label{
+    text-align: center;
+    font-size: 40px;
+    color: #707070;
+    margin: 0;
+}
+
+.panel{
+    background-color: #D54C4C;
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.interactive{
+    position: absolute;
+    background-color: #ffffff;
+    width: 38%;
+    height: 48%;
+    top: 26%;
+    right: 17%;
+    border-radius: 10px;
+    box-shadow: 0px 25px 99px rgba(0, 0, 0, 0.48);
+}
+
+.email_input{
+    position: absolute;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 2px solid #707070;
+    width: 61%;
+    height: 9%;
+    top: 25%;
+    left: 19.5%;
+}
+
+.password_input{
+    position: absolute;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 2px solid #707070;
+    width: 61%;
+    height: 9%;
+    top: 40%;
+    left: 19.5%;
+}
+
+.at-token{
+    position: absolute;
+    margin: 0;
+    top: 27%;
+    left: 16%;
+    color: #707070;
+    font-size: 20px;
+}
+
+.hash-token{
+    position: absolute;
+    margin: 0;
+    top: 42%;
+    left: 16%;
+    color: #707070;
+    font-size: 20px;
+}
+
+.sign_in{
+    position: absolute;
+    margin: 0;
+    background-color:white;
+    border: 2px solid #707070;
+    color: #707070;
+
+    left: 35%;
+    top: 70%;
+    width: 30%;
+    height: 10%;
+
+    text-align: center;
+    font-size: 30px;
+}
+
+.sign_up{
+    position: absolute;
+    margin: 0;
+    background-color:white;
+    border: 2px solid #707070;
+    color: #707070;
+
+    left: 35%;
+    top: 82%;
+    width: 30%;
+    height: 10%;
+
+    text-align: center;
+    font-size: 30px;
+}
